@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#142157"></a-box>
+      <a-sphere position="-1.33932 2.65442 -4.69902" radius="1.25" color="#006414"></a-sphere>
+      <a-cylinder position="-1.37378 0.72276 -4.81892" radius="0.5" height="1.5" color="#960018"></a-cylinder>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#020202"></a-plane>
+      <a-sky color="#9ae5f3"></a-sky>
+
+      <a-assets>
+        <a-asset-item id="cityModel" src="modelos/el_gato.glb"></a-asset-item>
+      </a-assets>
+      <a-entity gltf-model="modelos/el_gato.glb" modify-materials="" position="0.67707 -0.01796 -3.38457" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"></a-entity>
+    </a-scene>
+    
+  </body>
+</html>
